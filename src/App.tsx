@@ -1,8 +1,7 @@
 // import { useState } from 'react'
 import Header from "./components/layout/Header.tsx";
-
+import HeroSection from "./components/sections/Hero/HeroSection";
 import "./App.css";
-import HeroContent from "./components/sections/HeroSection/HeroContent.tsx";
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -10,7 +9,7 @@ function App() {
   return (
     <>
       <Header />
-      <HeroContent />
+      <HeroSection/>
     </>
   );
 }
