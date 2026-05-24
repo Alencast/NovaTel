@@ -1,15 +1,18 @@
 // import { useState } from 'react'
-import Header from './components/layout/Header.tsx'
+import Header from "./components/layout/Header.tsx";
 
-import './App.css'
+import "./App.css";
+import HeroContent from "./components/sections/HeroSection/HeroContent.tsx";
 
 function App() {
   // const [count, setCount] = useState(0)
 
   return (
-    
-    <Header/>
-  )
+    <>
+      <Header />
+      <HeroContent />
+    </>
+  );
 }
 
-export default App
+export default App;
