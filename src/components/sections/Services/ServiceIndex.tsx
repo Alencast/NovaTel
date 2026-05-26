@@ -1,5 +1,5 @@
-import ServiceCard from "./ServiceCard";
-import { serviceData } from "./ServiceData";
+import ServiceCard from "./CardService";
+import { serviceData } from "./DataService";
 
 export default function IndexService() {
   return (
