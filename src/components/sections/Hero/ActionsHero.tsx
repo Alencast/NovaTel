@@ -1,6 +1,6 @@
 import Button from "../../ui/Button";
 
-export default function HeroActions() {
+export default function ActionsHero() {
   return (
     <div className="flex gap-10 ">
       <Button variant="primary" rounded="lg" size="lg">

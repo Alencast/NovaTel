@@ -1,4 +1,4 @@
-export default function HeroContent() {
+export default function ContentHero() {
   return (
     <div className="space-y-6">
       <div className="inline-flex items-center gap-2 rounded-full bg-blue-100 px-4 py-2 text-xl font-semibold text-blue-700">
