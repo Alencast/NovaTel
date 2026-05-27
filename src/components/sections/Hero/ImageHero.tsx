@@ -1,4 +1,4 @@
-export default function HeroImage() {
+export default function ImageHero() {
   return (
     <div className="w-full flex justify-center md:justify-end">
       <div className="w-full max-w-4xl">

@@ -1,6 +1,6 @@
-import ServiceCard from "../Services/CardService.tsx";
+import ServiceCard from "../Solutions/CardSolution.tsx";
 import { featureData, valuesData } from "./DataFeature.tsx";
-export default function FeaturesIndex() {
+export default function SectionFeature() {
   return ( 
     <section className="mt-20 bg-gray-50 py-1">
       <div className="flex flex-col items-center text-center mt-20">

@@ -1,4 +1,4 @@
-export default function SpeedMarker() {
+export default function SpeedMarkerIcon() {
   return (
     <svg
       width="48"

@@ -1,7 +1,7 @@
-import ServiceCard from "./CardService";
-import { serviceData } from "./DataService";
+import ServiceCard from "./CardSolution";
+import { serviceData } from "./DataSolution";
 
-export default function IndexService() {
+export default function SectionSolution() {
   return (
     <section className="mt-20">
       <div className="flex flex-col items-center text-center mt-20">

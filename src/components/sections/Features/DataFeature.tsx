@@ -1,5 +1,5 @@
 import TalkIcon from "../../../assets/icons/TalkIcon";
-import SpeedMarker from "../../../assets/icons/SpeedMarker";
+import SpeedMarkerIcon from "../../../assets/icons/SpeedMarkerIcon";
 import WorldIcon from "../../../assets/icons/WorldIcon";
 import ShieldIcon from "../../../assets/icons/ShieldIcon";
 
@@ -12,7 +12,7 @@ export const featureData = [
     },
 
     { 
-        icon: SpeedMarker,
+        icon: SpeedMarkerIcon,
         title: "High-Speed Infra",
         description: "Leveraging Tier-1 peering points to minimize hops and maximize throughput.",
     },

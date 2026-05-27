@@ -1,9 +1,10 @@
 // import { useState } from 'react'
 import Header from "./components/layout/Header.tsx";
-import HeroSection from "./components/sections/Hero/HeroSection";
+import SectionHero from "./components/sections/Hero/SectionHero.tsx";
 import "./App.css";
-import IndexService from "./components/sections/Services/ServiceIndex.tsx";
-import FeaturesIndex from "./components/sections/Features/FeatureIndex.tsx";
+import SectionSolution from "./components/sections/Solutions/SectionSolution.tsx";
+import SectionFeature from "./components/sections/Features/SectionFeature.tsx";
+import SectionAbout from "./components/sections/About/SectionAbout.tsx";
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -12,13 +13,16 @@ function App() {
     <>
       <div className="bg-gray-50">
         <Header />
-        <HeroSection />
+        <SectionHero />
       </div>
       <div>
-        <IndexService />
+        <SectionSolution />
       </div>
       <div>
-        <FeaturesIndex />
+        <SectionFeature />
+      </div>
+      <div>
+       <SectionAbout />
       </div>
     </>
   );
