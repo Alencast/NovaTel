@@ -5,6 +5,8 @@ import "./App.css";
 import SectionSolution from "./components/sections/Solutions/SectionSolution.tsx";
 import SectionFeature from "./components/sections/Features/SectionFeature.tsx";
 import SectionAbout from "./components/sections/About/SectionAbout.tsx";
+import SectionCTA from "./components/sections/CTA/SectionCTA.tsx";
+import Footer from "./components/layout/Footer.tsx";
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -23,6 +25,12 @@ function App() {
       </div>
       <div>
        <SectionAbout />
+      </div>
+      <div>
+        <SectionCTA />
+      </div>
+      <div>
+        <Footer />
       </div>
     </>
   );

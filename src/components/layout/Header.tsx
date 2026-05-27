@@ -5,7 +5,10 @@ export default function Header() {
   return (
     <header className="w-full shadow-sm">
       <nav className="flex items-center justify-between px-8 py-4">
-        <Logo />
+        
+        <div className="px-6 md:px-23 md:w-1/2">
+          <Logo />
+        </div>
 
         <div className="flex items-center gap-20">
           <a
