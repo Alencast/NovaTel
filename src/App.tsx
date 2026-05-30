@@ -1,30 +1,19 @@
 // import { useState } from 'react'
-import Header from "./components/layout/Header.tsx";
-import SectionHero from "./components/sections/Hero/SectionHero.tsx";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
-import SectionSolution from "./components/sections/Solutions/SectionSolution.tsx";
-import SectionFeature from "./components/sections/Features/SectionFeature.tsx";
-import SectionAbout from "./components/sections/About/SectionAbout.tsx";
+import Home from "./pages/Home.tsx";
+import Store from "./pages/Store.tsx";
 
 function App() {
   // const [count, setCount] = useState(0)
 
   return (
-    <>
-      <div className="bg-gray-50">
-        <Header />
-        <SectionHero />
-      </div>
-      <div>
-        <SectionSolution />
-      </div>
-      <div>
-        <SectionFeature />
-      </div>
-      <div>
-       <SectionAbout />
-      </div>
-    </>
+   <BrowserRouter> 
+    <Routes> 
+      <Route path="/" element={<Home />} />
+      <Route path="/store" element={<Store />} />
+    </Routes>
+   </BrowserRouter>
   );
 }
 
