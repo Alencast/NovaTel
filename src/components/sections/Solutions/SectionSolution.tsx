@@ -1,4 +1,4 @@
-import ServiceCard from "./CardSolution";
+import CardSolution from "./CardSolution";
 import { serviceData } from "./DataSolution";
 
 export default function SectionSolution() {
@@ -15,9 +15,9 @@ export default function SectionSolution() {
       </div>
 
       {/* Cards */}
-      <div className="mt-16 grid grid-cols-1 gap-8 md:grid-cols-3">
+      <div className="mt-16 grid grid-cols-1 gap-6 md:grid-cols-3 w-full max-w-7xl mx-auto px-4">
         {serviceData.map((service) => (
-          <ServiceCard
+          <CardSolution
             key={service.title}
             icon={service.icon}
             title={service.title}
