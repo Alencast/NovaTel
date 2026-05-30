@@ -1,7 +1,11 @@
+import Header from "../components/layout/Header";
+import HeroSection from "../components/sections/Hero/SectionHero";
+
 export default function Store() { 
     return ( 
         <>
-        <h1>Store</h1>
+        <Header showCart={true} cartCount={0} onCartClick={() => alert("Cart clicked!")} />
+        <HeroSection />
         </>
     );
 }
