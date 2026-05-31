@@ -1,20 +1,18 @@
 # NovaTel
 
-Landing page moderna para uma empresa fictícia de telecomunicações, desenvolvida com React, TypeScript e Tailwind CSS.
+Modern landing page for a fictional telecommunications company, built with React, TypeScript, and Tailwind CSS.
 
-O projeto foi criado com foco em:
+The project was created with a focus on:
 
-* componentização
-* organização de código
-* responsividade
-* reutilização de componentes
-* boas práticas de frontend
+- Component-based architecture
+- Code organization
+- Responsive design
+- Component reusability
+- Frontend best practices
 
-## Tecnologias
+## Technologies
 
-* React
-* TypeScript
-* Vite
-* Tailwind CSS
-
-
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
