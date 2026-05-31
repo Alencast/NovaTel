@@ -4,12 +4,14 @@ type ServiceCardProps = {
   icon: React.ElementType;
   title: string;
   description: string;
+  value: number;
 };
 
 export default function CardProducts({
   icon: Icon,
   title,
   description,
+  value,
 }: ServiceCardProps) {
   return (
     <div className="mx-auto max-w-sm rounded-2xl border border-gray-200 p-6 shadow-sm flex flex-col items-center text-center h-full">
@@ -22,6 +24,8 @@ export default function CardProducts({
       <h3 className="mb-4 text-2xl font-bold text-gray-900">{title}</h3>
 
       <p className="text-gray-600 flex-grow">{description}</p>
+
+      <p className="mt-4 text-xl font-semibold text-gray-800">${value}</p>
 
       <div className="mt-6 flex gap-4">
         <Button variant="secondary" rounded="md" size="md">
