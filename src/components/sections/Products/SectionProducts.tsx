@@ -21,6 +21,7 @@ export default function SectionProducts() {
             icon={service.icon}
             title={service.title}
             description={service.description}
+            value={service.value}
           />
         ))}
       </div>

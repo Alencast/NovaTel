@@ -8,17 +8,20 @@ export const serviceData = [
     title: "Gigabit Core Uplink",
     description:
       "Dedicated fiber-optic lines providing symmetrical speeds and 100% committed information rates for critical business data.",
+    value: 1200,
   },
   {
     icon: CellPhoneIcon,
     title: "Unified Fleet Mobile",
     description:
       "Global 5G enterprise plans with unlimited roaming, centralized management for teams, and military-grade encryption",
+    value: 1500,
   },
   {
     icon: HeadSetIcon,
     title: "Managed Voice Cloud",
     description:
       "Advanced AI-driven voice systems for customer support, automated billing queries, and intelligent call routing.",
+    value: 800,
   },
 ];
