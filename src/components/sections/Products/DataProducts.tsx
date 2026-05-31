@@ -5,19 +5,19 @@ import HeadSetIcon from "../../../assets/icons/HeadSetIcon";
 export const serviceData = [
   {
     icon: WifiIcon,
-    title: "Internet Service Provider",
+    title: "Gigabit Core Uplink",
     description:
       "Dedicated fiber-optic lines providing symmetrical speeds and 100% committed information rates for critical business data.",
   },
   {
     icon: CellPhoneIcon,
-    title: "Cellphone Service",
+    title: "Unified Fleet Mobile",
     description:
       "Global 5G enterprise plans with unlimited roaming, centralized management for teams, and military-grade encryption",
   },
   {
     icon: HeadSetIcon,
-    title: "Interactive Voice Response",
+    title: "Managed Voice Cloud",
     description:
       "Advanced AI-driven voice systems for customer support, automated billing queries, and intelligent call routing.",
   },
